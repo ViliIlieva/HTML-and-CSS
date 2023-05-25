@@ -1,0 +1,42 @@
+body{
+    font-family: Helvetica, sans-serif;
+}
+
+header{
+padding-left: 40px;
+}
+
+h1{
+    display: inline-block;
+    font-size: 30px;
+    margin-right: 100px;
+    padding-left: 0;
+}
+
+nav{
+    border-bottom: 2px solid black;
+}
+
+ul{
+    padding-inline-start: 0;
+}
+
+main{
+    padding: 45px;
+}
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+
+li{
+    display: inline-block;
+    padding: 20px;
+    
+}
+
+a{
+    color: green;
+    text-decoration: none;
+}
