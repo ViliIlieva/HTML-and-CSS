@@ -12,11 +12,7 @@ h1, h2, h3{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-article{
-    width: 70%;
-}
-
-section{
+article, section{
     width: 70%;
 }
 
