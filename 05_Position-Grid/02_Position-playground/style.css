@@ -1,49 +1,59 @@
 @import url("https://use.fontawesome.com/releases/v5.13.0/css/all.css");
 
-card {
-    height: 350px;
-    display: block;
+* {
+  box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
 }
 
 .viewport {
-    width: 700px;
-    height: 350px;
+    height: 50vh;
+    width: 100vw;
     position: relative;
 }
 
 .river {
-    background: linear-gradient(to right, #1A619D 0%, #3FC5A1 100%);
-    ;
+  background: linear-gradient(to right, #1a619d 0%, #3fc5a1 100%);
 }
 
 .mountain {
-    background: linear-gradient(to right, #A93574 0%, #D18016 100%);
+  background: linear-gradient(to right, #a93574 0%, #d18016 100%);
+}
+
+card {
+    height: 350px;
+    display: block;
+    position: relative;
 }
 
 img {
     width: 200px;
 }
 
-.first {
+/* центрираме контейнер */
+.wraper{
     position: absolute;
-    top: 30%;
-    left: 35%;
+    margin: 0px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-.second {
+.star1{
     position: absolute;
-    top: 7%;
-    left: 35%;
+    bottom: 9%;
+    right: 4%;
+    color: white;
 }
 
-.star1 {
+.star2{
     position: absolute;
-    top: 60%;
-    left: 60%;
+    bottom: 5%;
+    right: 4%;
+    color: white;
 }
 
-.star2 {
-    position: absolute;
-    top: 85%;
-    left: 60%;
-}
+
+
