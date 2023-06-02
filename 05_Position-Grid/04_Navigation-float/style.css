@@ -2,13 +2,14 @@ body {
     background-color: rgb(238, 238, 238);
     font-family: Helvetica, sans-serif;
     padding-left: 60px;
+    line-height: 1.5;
 }
 
 header {
     border-bottom: 3px solid black;
 }
 
-main {
+ main {
     display: grid;
     grid-template-columns: auto 25%;
     grid-template-areas:
@@ -24,13 +25,7 @@ main {
 
 .art2 {
     grid-area: art2;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-areas:
-        "head head"
-        "ph1 ph1"
-        "ph2 blockquote"
-        "ph3 ph3";
+    position: relative;
 }
 
 .art3 {
@@ -41,45 +36,29 @@ aside {
     grid-area: aside;
 }
 
-.artTitle {
-    grid-area: head;
-}
-
-.ph1 {
-    grid-area: ph1;
-}
-
-.ph2 {
-    grid-area: ph2;
-}
-
-blockquote {
-    grid-area: blockquote;
-}
-
-.ph3 {
-    grid-area: ph3;
-}
 
 .art1,
 .art3 {
     overflow: auto;
 }
 
-nav p {
+header p {
     display: inline-block;
     font-size: 30px;
     font-weight: 600;
     padding-left: 0;
 }
 
-nav {
+header nav ul {
     display: inline-block;
+    position: absolute;
+    right: 38px;
+    top: 10px;
 }
 
-/* ul{
+ul{
     padding-inline-start: 0;
-} */
+} 
 
 header li {
     display: inline-block;
@@ -99,6 +78,7 @@ header a {
 
 aside a {
     color: rgb(0, 102, 0);
+    text-decoration: none;
 }
 
 img {
@@ -112,20 +92,32 @@ img {
 .img1 {
     float: right;
     margin-left: 20px;
+    margin-bottom: 10px;
 }
 
 .img2 {
     float: left;
     margin-right: 20px;
+    margin-bottom: 10px;
 }
 
 blockquote {
     font-family: Georgia, serif;
+    color: #928f8d;
     border-left: 3px solid rgb(201, 191, 191);
     font-style: italic;
     padding-left: 15px;
+    position: absolute;
+    left: 50%;
+    margin: 0px 0px 0px 10px;
 }
+
+.ph2{
+    position: relative;
+    width: 50%;
+}
+
 
 blockquote .author {
     text-align: right;
-}
+} 
