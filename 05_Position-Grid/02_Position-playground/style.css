@@ -1,0 +1,49 @@
+@import url("https://use.fontawesome.com/releases/v5.13.0/css/all.css");
+
+card {
+    height: 350px;
+    display: block;
+}
+
+.viewport {
+    width: 700px;
+    height: 350px;
+    position: relative;
+}
+
+.river {
+    background: linear-gradient(to right, #1A619D 0%, #3FC5A1 100%);
+    ;
+}
+
+.mountain {
+    background: linear-gradient(to right, #A93574 0%, #D18016 100%);
+}
+
+img {
+    width: 200px;
+}
+
+.first {
+    position: absolute;
+    top: 30%;
+    left: 35%;
+}
+
+.second {
+    position: absolute;
+    top: 7%;
+    left: 35%;
+}
+
+.star1 {
+    position: absolute;
+    top: 60%;
+    left: 60%;
+}
+
+.star2 {
+    position: absolute;
+    top: 85%;
+    left: 60%;
+}

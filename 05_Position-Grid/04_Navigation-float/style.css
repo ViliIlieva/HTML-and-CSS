@@ -1,0 +1,131 @@
+body {
+    background-color: rgb(238, 238, 238);
+    font-family: Helvetica, sans-serif;
+    padding-left: 60px;
+}
+
+header {
+    border-bottom: 3px solid black;
+}
+
+main {
+    display: grid;
+    grid-template-columns: auto 25%;
+    grid-template-areas:
+        "art1 aside"
+        "art2 aside"
+        "art3 aside";
+    gap: 35px;
+}
+
+.art1 {
+    grid-area: art1;
+}
+
+.art2 {
+    grid-area: art2;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+        "head head"
+        "ph1 ph1"
+        "ph2 blockquote"
+        "ph3 ph3";
+}
+
+.art3 {
+    grid-area: art3;
+}
+
+aside {
+    grid-area: aside;
+}
+
+.head {
+    grid-area: head;
+}
+
+.ph1 {
+    grid-area: ph1;
+}
+
+.ph2 {
+    grid-area: ph2;
+}
+
+blockquote {
+    grid-area: blockquote;
+}
+
+.ph3 {
+    grid-area: ph3;
+}
+
+.art1,
+.art3 {
+    overflow: auto;
+}
+
+nav p {
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 600;
+    padding-left: 0;
+}
+
+nav {
+    display: inline-block;
+}
+
+/* ul{
+    padding-inline-start: 0;
+} */
+
+header li {
+    display: inline-block;
+    padding: 20px;
+}
+
+h1,
+h3 {
+    font-family: Georgia, serif;
+    font-size: 1.2em;
+}
+
+header a {
+    color: rgb(0, 102, 0);
+    text-decoration: none;
+}
+
+aside a {
+    color: rgb(0, 102, 0);
+}
+
+img {
+    width: 200px;
+    background: rgb(255, 255, 255);
+    border: 4px solid black;
+    padding: 10px;
+    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.25);
+}
+
+.img1 {
+    float: right;
+    margin-left: 20px;
+}
+
+.img2 {
+    float: left;
+    margin-right: 20px;
+}
+
+blockquote {
+    font-family: Georgia, serif;
+    border-left: 3px solid rgb(201, 191, 191);
+    font-style: italic;
+    padding-left: 15px;
+}
+
+blockquote .author {
+    text-align: right;
+}
