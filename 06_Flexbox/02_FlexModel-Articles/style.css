@@ -11,10 +11,12 @@ h2{
 section{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 8rem;
+   
 }
 
 article{
-    max-width: 25vw;  
+    max-width: 20vw;  
 }
 
