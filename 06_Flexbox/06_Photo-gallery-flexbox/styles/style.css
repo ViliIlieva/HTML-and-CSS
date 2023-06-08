@@ -3,7 +3,7 @@ ul, li {
     display: flex;
     background-color: #EEE;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 40px;
 }
 
 body{
@@ -12,7 +12,7 @@ body{
 }
 
 .gallery {
-    margin: 90px;
+    margin: 150px;
 }
 
 ul {
@@ -20,7 +20,7 @@ ul {
 }
 
 li {
-    width: 280px;
+    width: 320px;
     height: 570px;
     flex-grow: 1;
     background-color: white;
