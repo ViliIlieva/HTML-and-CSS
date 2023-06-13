@@ -1,0 +1,113 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    display: inline-block;
+    border: 2px solid gray;
+    border-radius: 4px;
+    padding: 9px 100px 9px 11px;
+    background-color: #f8f8f8;
+    position: absolute;
+    top: 25px;
+}
+
+form {
+    width: 500px;
+    height: 220px;
+    border: 2px solid gray;
+    padding: 30px 20px 30px 30px;
+    margin-top: 58px;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+}
+
+button {
+    color: #fff;
+    background-color: #2d2d2d;
+    border: none;
+    padding: 7px 20px;
+    border-radius: 4px;
+}
+
+label {
+    margin-right: 5px;
+}
+
+input {
+    width: 77%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+p {
+    position: relative;
+}
+
+i {
+    position: absolute;
+    left: 93px;
+    top: 7px;
+}
+
+@media (max-width: 1366px){
+    form {
+        margin-top: 48px;
+    }
+
+    h3 {
+        top: 15px;
+    }
+}
+
+@media (max-width: 960px){
+   form{
+    width: 450px;
+    height: 200px;
+    padding: 27px 20px 27px 30px;
+   }
+
+   input {
+    width: 72%;
+    height: 27px;
+    margin-bottom: 10px;
+}
+
+i {
+    top: 6px;
+}
+}
+
+@media (max-width: 576px){
+    form{
+     width: 400px;
+     height: 270px;
+     padding: 27px 20px 27px 30px;
+    }
+ 
+    input {
+     width: 90%;
+     height: 33px;
+     margin-top: 5px;
+     margin-bottom: 10px;
+ }
+ 
+ i {
+    position: absolute;
+    left: 14px;
+    top: 31px;
+ }
+
+ button {
+   width: 80px;
+    padding: 7px 20px;
+}
+ }
