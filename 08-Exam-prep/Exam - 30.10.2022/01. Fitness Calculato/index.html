@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="black"></div>
+
+    <div class="around">
+      <section class="fitnes-calc">
+        <div class="img-container">
+            <img src="image/calculator.png" alt="calculator" class="img" />
+        </div>
+
+        <div class="calc">
+          <h1>FITNESS CALCULATOR</h1>
+
+          <div class="btns">
+            <button class="btn btn-primary">Standart units (US)</button>
+            <button class="btn">Metric units</button>
+          </div>
+
+          <form action="calculate">
+            <label for="gender">Gender</label>
+            <div class="first-input">
+              <input
+                type="text"
+                name="gender"
+                class="gender"
+                placeholder="Female"
+              />
+              <input type="text" class="years" placeholder="Years..." />
+            </div>
+
+            <label for="Weight">Weight</label>
+            <div class="second-input">
+              <input type="text" class="weight-input" placeholder="Pounds..." />
+            </div>
+
+            <label for="Height">Height</label>
+            <div class="third-input">
+              <input type="text" placeholder="Feet..." class="height1" />
+              <input type="text" placeholder="Inches..." class="height2" />
+            </div>
+
+            <button class="btn-calculate">Calculate</button>
+          </form>
+        </div>
+      </section>
+    </div>
+
+    <div class="black"></div>
+  </body>
+</html>

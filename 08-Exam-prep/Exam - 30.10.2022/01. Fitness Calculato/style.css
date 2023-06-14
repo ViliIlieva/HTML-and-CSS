@@ -1,0 +1,152 @@
+/* 
+background #f6f7f8
+green #86d862
+black #000000
+border #8e8e8e
+blue #05a2d3
+grey #868686
+*/
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: #000000;
+}
+
+.black{
+    background-color: #000000;
+    height: 74px;
+    display: flex;
+}
+
+.around{
+    height: 800;
+}
+
+.fitnes-calc{
+    background-color: #f6f7f8;
+    width: 1300px;
+    height: 700px;
+    margin: 63px auto;
+    border: 1px solid #8e8e8e;
+    border-radius: 20px;
+    display: flex;
+    box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.img-container{
+    width: 53.9%;
+    background-color: #000000;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.img{
+    border: 1px solid #8e8e8e;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    opacity: 0.7;
+}
+
+.fitnes-calc h1{
+    font-size: 30px;
+    text-align: center;
+    margin: 55px auto;
+    font-weight: 600;
+}
+
+.calc{
+    width: 46%;
+}
+
+
+/* Buttons */
+
+.fitnes-calc .btns{
+    display: flex;
+    margin: 0 60px;
+}
+
+.fitnes-calc .btn{
+    all: unset;
+    border: 1px solid black;
+    border-radius: 6px;
+    width: 170px;
+    height: 37px;
+    text-align: center;
+    background-color: #e0e0df;
+    margin: 0 auto;
+}
+
+.fitnes-calc .btn-primary{
+    background-color: #86d862;
+}
+
+/* Form */
+
+.calculate{
+    display: flex;
+}
+
+label{
+    font-size: 17px;
+    font-weight: 700;
+    text-align: center;
+    display: block;
+    margin: 20px auto;
+}
+
+.first-input{
+    margin: 0 110px;
+}
+
+.first-input input{
+    width: 170px;
+    height: 20px;
+}
+
+.gender{
+    margin-right: 25px;
+}
+
+.second-input{
+    position: relative;
+}
+
+.weight-input{
+    width: 80%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 20px;
+}
+
+.third-input {
+    margin: 0 41px;
+}
+
+.height1{
+    margin-right: 10px;
+}
+
+.third-input input{
+    width: 250px;
+}
+
+.btn-calculate{
+    all: unset;
+    font-size: 18px;
+    font-weight: 800;
+    color: white;
+    background-color: #05a2d3;
+    border-radius: 30px;
+    width: 80%;
+    height: 35px;
+    text-align: center;
+    margin: 70px 61px;
+    box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
