@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|PT+Serif');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.address {
+    background: #D01919;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 6px 37px;
+}
+
+.address i {
+    margin-right: 9px;
+}
+
+.hero {
+    background: url("image/fitness-main.jpg") no-repeat center center;
+    color: white;
+    background-size: cover;
+    text-align: center;
+    height: 50vh;
+}
+
+.hero nav {
+    width: 50%;
+    float: right;
+    padding: 1.5rem;
+}
+
+.hero ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hero a {
+    text-decoration: none;
+    color: white;
+}
+
+.hero h1 {
+    padding-top: 10rem;
+    padding-bottom: 2rem;
+    font-size: 36px;
+    letter-spacing: 10px;
+}
+
+.hero p {
+    width: 30%;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+}
+
+.hero button {
+    all: unset;
+    background-color: #D01919;
+    width: 150px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 8px 11px;
+}
+
+.welcome {
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.welcome h2{
+    margin: 25px;
+}
+
+.divider{
+    width: 40px;
+    height: 2px;
+    background-color: #D01919;
+    margin-bottom: 15px;
+}
+
+.welcome .welcome-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.welcome .welcome-container img{
+    width: 14%;
+    margin: 10px auto;
+}
+
+.welcome-container .content{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.welcome-container .content h4{
+    color: #D01919;
+    margin: 20px;
+}
+
+.welcome-container .content p{
+    text-align: center;
+}
+
+.coaches{
+    background: #EFEFEF;
+    text-align: center;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.coaches h2{
+    margin: 25px;
+}
+
+.coaches .divider{
+    width: 40px;
+    height: 3px;
+    background-color: #D01919;
+    margin-bottom: 15px;
+}
+
+.coaches .coaches-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.coaches .coaches-container img{
+    width: 90%;
+    margin: 10px auto;
+}
+
+.coaches-container .content{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.coaches-container .content h4{
+    margin: 9px;
+}
+.coaches-container .content h6{
+    font-size: 14px;
+    color: #D01919;
+    margin: 0;
+}
+
+.coaches-container .content p{
+    margin-top: 5px;
+    text-align: center;
+    color: #A6A1A5;
+}
+
+footer {
+    background: #D01919;
+    display: flex;
+    padding: 6px 37px;
+    justify-content: center;
+}
