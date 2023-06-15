@@ -1,0 +1,55 @@
+@media (max-width: 600px) {
+  .navigation-links-root-class-name17 {
+    display: none;
+  }
+
+  .navigation-nav button {
+    display: none;
+  }
+
+  .home-text {
+    display: none;
+  }
+
+  .section-container {
+    padding-top: 68px;
+  }
+
+  .home-tab-selector-cards-container {
+    display: inline;
+  }
+
+  .portofolio-card-speaker-card {
+    margin-bottom: 30px;
+  }
+
+  .home-image{
+    display: none;
+  }
+
+  .section-container{
+    padding-bottom: 33px;
+  }
+
+  .home-text10{
+    margin-right: 44px;
+  }
+
+  .home-links-container, .home-top-part{
+    display: inline;
+  }
+
+  .home-product-container, 
+  .home-navigate-container,
+  .home-contact-container{
+    margin-bottom: 20px;
+  }
+
+  .home-subscribe-container{
+    width: 100%;
+  }
+
+  .button-primary{
+    padding: 20px;
+  }
+}

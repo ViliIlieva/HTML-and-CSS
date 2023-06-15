@@ -1,0 +1,266 @@
+body {
+  max-width: 70%;
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+}
+
+.nav {
+  width: 75%;
+  display: flex;
+  position: relative;
+  font-size: large;
+  font-weight: 600;
+}
+
+.nav p {
+  margin: 1.5rem 4rem;
+  width: 150px;
+}
+
+.nav nav {
+  width: 35%;
+  position: absolute;
+  right: -294px;
+  padding: 1.5rem;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Hero section */
+
+.text-img {
+  background-color: #85dcff;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.text-img .info {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.info p {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* Button */
+
+.btn {
+  font-size: 14px;
+  background-color: white;
+  width: 220px;
+  border-radius: 6px;
+  letter-spacing: 0.8px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 8px 11px;
+}
+
+.btn-primary {
+  margin-left: 10px;
+  width: 270px;
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+}
+
+/* 3 img with container with info */
+
+.three-img-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.three-img-info h2,
+.chat h2 {
+  margin: 24px;
+}
+
+.three-img-info > p {
+  width: 52%;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.three-img-info .container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.three-img-info i {
+  color: #85dcff;
+  font-size: 140px;
+  margin: 10px auto;
+}
+
+.container .content {
+  width: 22%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container .content h4 {
+  margin: 20px;
+}
+
+.container .content p {
+  text-align: center;
+}
+
+/* ul section in 2 column with button */
+
+.ul {
+  background-color: #85dcff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ul h2 {
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+
+.ul ul {
+  width: 50%;
+  display: grid;
+  grid-template-columns: 300px 300px;
+  grid-gap: 30px;
+  margin-bottom: 7px;
+  font-size: 16px;
+  line-height: 1.5;
+  vertical-align: middle;
+}
+
+.ul li {
+  display: grid;
+  grid-template-columns: 25px auto;
+}
+
+.ul > .btn {
+  margin: 70px;
+}
+
+/* four-img */
+
+.four-img,
+.chat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.four-img h2 {
+  font-size: 48px;
+  font-weight: 800;
+  margin: 30px;
+}
+
+.four-img .container {
+  display: flex;
+  justify-content: space-around;
+  margin: 40px;
+}
+
+/* chat */
+
+.chat {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.chat .content {
+  border: 1px solid lightslategray;
+  margin: 10px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.chat .content .first {
+  background-color: #85dcff;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.chat .content .second {
+  margin: 30px;
+}
+
+/* img-text */
+
+.img-text {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.img-text img {
+  width: 49%;
+}
+
+.img-text .info {
+  margin-left: 70px;
+  width: 49%;
+  padding-top: 70px;
+}
+
+.img-text .info input {
+  all: unset;
+  width: 290px;
+  height: 40px;
+  border-radius: 4px;
+  border: 0.5px solid lightsteelblue;
+  margin-bottom: 50px;
+}
+
+.img-text .info .btn {
+  width: 170px;
+  height: 45px;
+  margin-left: 0;
+}
+
+/* footer with icon */
+
+footer {
+  display: flex;
+  margin: 20px;
+  justify-content: space-between;
+}
+
+footer .icons {
+  display: flex;
+  font-size: 30px;
+  margin-left: 40px;
+}
+
+footer .icons .icon{
+   margin-right: 15px;
+}
+
+footer .text{
+ font-weight: bold;
+ position: relative;
+ float: right;
+}
